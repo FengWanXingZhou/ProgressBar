@@ -9,7 +9,7 @@
         <scale android:scaleWidth="100%"
             android:scaleHeight="100%"
             android:scaleGravity="fill"
-            android:level="10000"
+            android:level="1"
             android:drawable="@drawable/scan_manual_signal_bg_green_clip"/>
     </item>
     <!--ID必须使用progress,否则在设置进度时，会对每一层的drawable都设置level-->

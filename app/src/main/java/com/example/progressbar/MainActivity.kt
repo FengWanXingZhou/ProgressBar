@@ -19,8 +19,9 @@ class MainActivity : AppCompatActivity() {
     private fun changeProgress(){
         Thread(Runnable {
             while(true){
-                Thread.sleep(2000)
+                Thread.sleep(500)
                 val pro = (Math.random()*100).toInt()
+                firstProgressBar.setProgress(pro)
                 secondProgressBar.setProgress(pro)
             }
 

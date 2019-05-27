@@ -7,25 +7,27 @@
               android:orientation="vertical"
     tools:context=".MainActivity">
     <ProgressBar
-            android:id = "@+id/firstProgress"
-            android:layout_width="300dip"
-            android:layout_height="30dip"
-            android:max="100"
+        android:id = "@+id/firstProgress"
+        android:layout_width="700dip"
+        android:layout_height="20dip"
 
-            android:progress="1"
-            android:layout_marginLeft="100dip"
-            style="@android:style/Widget.ProgressBar.Horizontal"
-            android:progressDrawable="@drawable/scan_manual_signal_progressbar_green"
+
+        android:progress="0"
+        android:layout_marginTop="200dip"
+        android:layout_marginStart="100dip"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+
+        android:progressDrawable="@drawable/scan_manual_signal_progressbar_green_color"
     />
 
     <ProgressBar
-            android:id = "@+id/secondProgress"
+        android:id = "@+id/secondProgress"
         android:layout_width="700dip"
         android:layout_height="30dip"
         android:max="100"
         android:progress="0"
-            android:layout_marginLeft="100dip"
-            android:layout_marginTop="100dip"
+        android:layout_marginStart="100dip"
+        android:layout_marginTop="100dip"
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:progressDrawable="@drawable/scan_manual_signal_progressbar_green"
         />
