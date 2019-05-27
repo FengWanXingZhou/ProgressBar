@@ -6,3 +6,7 @@
 
 # 额外说明
 增加只使用颜色的方式来实现进度条
+
+# 效果图
+
+![image](https://github.com/FengWanXingZhou/ProgressBar/blob/master/sample.gif)
