@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--background使用scale drawable,level设置为最大10000，
+        如果不设置level，或者设置为0，不会显示背景
+    -->
+    <item
+        android:id="@android:id/background">
+        <scale android:scaleWidth="100%"
+            android:scaleHeight="100%"
+            android:scaleGravity="fill"
+            android:level="10000"
+            android:drawable="@drawable/scan_manual_signal_bg_green_clip"/>
+    </item>
+    <!--ID必须使用progress,否则在设置进度时，会对每一层的drawable都设置level-->
+    <item
+        android:id="@android:id/progress">
+        <scale android:scaleWidth="100%"
+            android:scaleHeight="100%"
+            android:scaleGravity="left|fill_vertical|clip_vertical"
+            android:drawable="@drawable/scan_manual_signal_fg_green_clip9"/>
+    </item>
+
+
+</layer-list>
